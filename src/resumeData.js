@@ -14,7 +14,7 @@ let resumeData = {
         "className":"fa fa-github"
       }
     ],
-  "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
+  "aboutme":"I am currently in my fourth year of study at the University of Victoria. I am a experienced Full Stack Web Developer learning machine learning and AI practices. I hope is to be able to find a postion where I can apply the total sum of all my knowledge into a meaningful project.",
   "goals": "My current goal is to get a 4 or 8 month co-op at a company where I can learn and grow as a developer and person.",
   "address1":"1870 McKenzie Ave. Unit 206",
   "address2":"Victoria, BC, V8N 4X3",
@@ -50,7 +50,7 @@ let resumeData = {
       "specialization":"Server & Bartender",
       "start":"Sept 2016",
       "end":" - Sept 2020",
-      "Achievements":"worked in a various fast pace environments where meeting goals in a fast team environment. Learnt excellent workplace skills from working in the hospitality industry."
+      "Achievements":"Worked in a various fast pace environments where meeting goals in a fast team environment. Learnt excellent workplace skills from working in the hospitality industry."
     }
 
   ],
