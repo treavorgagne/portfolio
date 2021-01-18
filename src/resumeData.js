@@ -15,7 +15,7 @@ let resumeData = {
       }
     ],
   "aboutme":"I am currently in my fourth year of study at the University of Victoria. I am a experienced Full Stack Web Developer learning machine learning and AI practices. I hope is to be able to find a postion where I can apply the total sum of all my knowledge into a meaningful project.",
-  "goals": "My current goal is to get a 4 or 8 month co-op at a company where I can learn and grow as a developer and person.",
+  "goals": "My current goal is to get a 4 or 8 month co-op at a company where I can apply my skill set and grow as a developer and person.",
   "address1":"1870 McKenzie Ave. Unit 206",
   "address2":"Victoria, BC, V8N 4X3",
   "email":"gagne.16@hotmail.com",

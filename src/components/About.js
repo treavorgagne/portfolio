@@ -21,6 +21,13 @@ export default class About extends Component {
                }
                </p>
 
+               <h2>My Current Goal</h2>
+               <p>
+               {
+                 resumeData.goals
+               }
+               </p>
+
             </div>
          </div>
       </section>
