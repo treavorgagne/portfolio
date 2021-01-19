@@ -49,7 +49,7 @@ let resumeData = {
     {
       "class":"CSC 370 - Database Systems",
       "grade":"A+",
-      "outcome": "Learnt major topics of database systems including  database design, query languages, query optimization, concurrency control, and recovery from failures. "
+      "outcome": "Learnt major topics of database systems including  database design, query languages, query optimization, concurrency control, and recovery from failures. Included project where a database design was created to accommodate an airport flight scenario using prepared statement."
     },
     {
       "class":"CSC 421 - Introduction to Artificial Intelligence",
