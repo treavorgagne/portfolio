@@ -4,33 +4,42 @@ export default class Porfolio extends Component {
     let resumeData = this.props.resumeData;
     return (
       <section id="portfolio">
-      <div className="row">
-        <div className="twelve columns collapsed">
-          <h1>Check Out Some of My Projects.</h1>
-          <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-          {
-            resumeData.portfolio && resumeData.portfolio.map((item)=>{
-              return(
-                <div className="columns portfolio-item">
-                  <div className="item-wrap">
-                    <a href="#modal-01">
-                      <img src={`${item.imgurl}`} className="item-img"/>
-                      <div className="overlay">
-                        <div className="portfolio-item-meta">
-                          <h5>{item.name}</h5>
-                          <p>{item.description}</p>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              )
-            })
-          }
-          </div>
+         <div className="row portfolio">
+              <div className="three columns header-col">
+                <h1><span>Projects</span></h1>
+              </div>
+              <div className="nine columns">
+                <p style={{'font-size': '28px'}} > {resumeData.projects} <a href="https://github.com/treavorgagne" target="_blank">GitHub.</a> </p>
+              </div>
         </div>
-      </div>
-  </section>
-        );
+
+        <br></br>
+
+        {  
+          resumeData.portfolio && resumeData.portfolio.map((item)=>{
+            return(
+            <div className="row portfolio">
+              <div className="three columns">
+
+                  <img className="profile-pic"  src={item.imgurl} alt="" />
+
+              </div>
+
+              <div className="nine columns main-col">
+
+                  <h2>{item.name}</h2>
+                  <p>
+                  {
+                    item.description
+                  }
+                  </p>
+
+              </div>
+            </div>
+            )
+          })
+        }
+      </section>
+    );
   }
 }

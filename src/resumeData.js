@@ -195,26 +195,27 @@ let resumeData = {
       "skillname":"Time Management - Competent"
     }
   ],
+  "projects": "Here is a list of all my completed projects. All code and related documents can be found on my ",
   "portfolio":[
     {
-      "name":"project1",
-      "description":"mobileapp",
-      "imgurl":"images/portfolio/phone.jpg"
+      "name":"Top-Down Royale",
+      "description":"Top-down royale is a 2 or more player C++ multiplayer battle royale game using the SFML game library. TDR architecture was designed with extensibility in mind to add more content in the future. Furthermore, TDR code uses classes and objects, so movements speeds and others game options can be changed easily. TDR uses multiple threads to handle hand both player movements and shooting. TDR uses MAKE files to compile both client and a hosted server where the host can specify the player to be in the game. I had a huge contribution in coding the game's mechanics like shooting, collision detections, spawning, and player movement among other things.",
+      "imgurl":"images/tdr.png  "
     },
     {
-      "name":"project2",
-      "description":"mobileapp",
-      "imgurl":"images/portfolio/project.jpg"
+      "name":"Pulse Modulator",
+      "description":"This project was to observe and manipulate a pulse width modulated (PWM) signal using the STM32F051R8T6 microcontroller with some external circuitry on a STM32F0 Discovery board. The PWM signal was produced by an external 555 timer (NE555 Timer) and the frequency of the signal was manipulated by the external optocoupler (4N35 Optocoupler) attached to the microcontroller. Voltage was measured across a potentiometer attached to the microcontroller in order to calculate the resistance. Then a built-in analogue-to-digital converter (ADC) was used to read an analogue voltage value from the potentiometer continuously. This value was then relayed to the octopolar from the microcontroller to form the signal which was to be measured by the microcontroller. Specifically, a digital-to-analog converter (DAC) was used to relay the analogue voltage value to the external circuitry containing the 555 timers to manipulate the frequency. In addition, the frequency of the PWM signal was measured using EXIT and TIM2 interrupts to monitor falling and rising edges of the signal. Overall, the goal of the system was to measure the voltage of the system while displaying the frequency and resistance on to a LCD screen. Data was transmited to the LCD by a 8-bit parallel interface using different output controller signals.",
+      "imgurl":"images/pulse.png"
     },
     {
-      "name":"project3",
-      "description":"mobileapp",  
-      "imgurl":"images/portfolio/project2.png"
+      "name":"Postgres Database Project",
+      "description":"This completed project is a final part of a database system course. The purpose of the project was to create a schema of tables to accomadate flights of different people and avoid various conditions, such as having the same person on the same flight or the flights at the same time etc. Overall, this project demostrated my ability on how to design a database schema, and how to write and constrain queries using PostgreSQL. This project also uses preapred statements to secure database from SQL injection attacks.",  
+      "imgurl":"images/sql.png"
     },
     {
-      "name":"project4",
-      "description":"mobileapp",
-      "imgurl":"images/portfolio/phone.jpg"
+      "name":"Portfolio Website",
+      "description":"This is the current website you are viewing. The goal of this project is to learn and try new web development techniques, as well as show cases myself. This site uses CSS, HTML5, React.js, and Node.js packages to bring the site to life.",  
+      "imgurl":"images/header-background-pg.jpg"
     }
   ],
   "testimonials":[
